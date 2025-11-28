@@ -1,7 +1,20 @@
 {
-    "TEST-1234-ABCDE": {
+    "user2": {
         "active": true,
         "expires": 1767225600,
         "user": "demo_user"
     }
+
+        "user1": {
+        "active": false,
+        "expires": 1767225600,
+        "user": "devmkh"
+    }
+
+        "user3": {
+        "active": false,
+        "expires": true,
+        "user": "david"
+    }
 }
+
