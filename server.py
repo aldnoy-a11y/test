@@ -10,6 +10,11 @@ def load_db():
     with open("db.json", "r") as f:
         return json.load(f)
 
+@app.route("/")
+def index():
+    return "Welcome to the License Server!"
+
+
 @app.get("/check/<key>")
 def check(key):
 
@@ -39,3 +44,4 @@ def check(key):
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
