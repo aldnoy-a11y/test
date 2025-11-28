@@ -1,0 +1,7 @@
+{
+    "TEST-1234-ABCDE": {
+        "active": true,
+        "expires": 1767225600,
+        "user": "demo_user"
+    }
+}
